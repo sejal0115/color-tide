@@ -6,7 +6,7 @@ import contact from '../assets/images/contact.png';
 export default function GradientNavbar() {
     return (
         <nav className="bg-white fixed-top navbar navbar-expand-lg px-4 py-1 shadow">
-            <a className="navbar-brand d-flex align-items-center p-0" href="/">
+            <a className="navbar-brand d-flex align-items-center p-0" href="/color-tide/">
                 <img
                     src={logo}
                     alt="ColorTide Logo"
