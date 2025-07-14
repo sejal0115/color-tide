@@ -1,0 +1,26 @@
+/* Tool tip css start */
+.custom-tooltip {
+  position: absolute;
+  background-color: #222;
+  color: #fff;
+  padding: 4px 4px;
+  font-size: 0.6rem;
+  border-radius: 4px;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 9999;
+  white-space: nowrap;
+  opacity: 0.9;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  transition: opacity 0.2s ease;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+.tooltip-wrapper {
+  display: inline-block;
+}
+
+/* Tool tip css end */
